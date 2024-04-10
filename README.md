@@ -69,4 +69,6 @@ This project is designed to facilitate user management by providing functionalit
    - This endpoint is used to store all the posts of a user
  - GET /posts/download/:userId
     - This endpoint is used to download all the posts of a user in an excel sheet
-
+   
+# Video
+[Video walkthrough](https://drive.google.com/uc?export=view&id=1TsV0EItjkwMnE1KgIoZc_CWOeL_7fV2b)
