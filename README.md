@@ -70,7 +70,3 @@ This project is designed to facilitate user management by providing functionalit
  - GET /posts/download/:userId
     - This endpoint is used to download all the posts of a user in an excel sheet
 
-[Video walkthrough](https://drive.google.com/uc?export=view&id=1TsV0EItjkwMnE1KgIoZc_CWOeL_7fV2b)
-
-
-### Codebase walkthrough
