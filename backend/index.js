@@ -12,7 +12,7 @@ app.use(express.json())
 app.use("/users",UserRouter);
 app.use("/posts",PostRouter);
 app.get("/",(req,res)=>{
-    res.send("Home")
+    res.send("Hello Shashank")
 })
 
 app.listen(PORT,async()=>{

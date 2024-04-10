@@ -19,6 +19,7 @@ PostRouter.get("/",async(req,res)=>{
     try {
         let {userId} = req.query;
         let posts = await post.findAll({where: {userId}});
+       
         let data = await axios(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)
         data = data.data
         if(posts.length != 0){
