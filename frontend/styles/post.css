@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff6347; /* Tomato */
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* post.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4169e1; /* Royal Blue */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #696969; /* Dim Gray */
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-title {
+    color: #4b0082; /* Indigo */
+    font-weight: bold;
+}
+
+.post-body {
+    color: #333;
+}
